@@ -1,0 +1,8 @@
+Solução dissertativa
+
+1. Leia e armazene o número n que se deseja multripicar por 9           #Entrada
+2. Subtrair n-1 e armazenar como primeiro dígito n1                     #Procesamento
+3. Subtrair 10-n e armazenar como segundo dígito n2                     #Procesamento
+4. Realize a expressão (n1 x 10) + n2 e armazene como resultado final r #Procesamento
+5. Apresente r e encerre o programa                                     #Saida
+ 
