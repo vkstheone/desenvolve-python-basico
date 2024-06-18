@@ -1,5 +1,6 @@
 import random
 
+
 def embaralhar_palavras(frase):
     palavras = frase.split()
 
@@ -20,6 +21,5 @@ def embaralhar_palavras(frase):
 
 
 frase = input("Digite a frase que deseja embaralhar: ")
-
 resultado = embaralhar_palavras(frase)
 print("Frase embaralhada:", resultado)
