@@ -1,0 +1,58 @@
+Introdução
+Empresa: Desenvolve Inventário Solutions
+
+Desenvolve Inventário Solutions é uma empresa fictícia que fornece soluções de gerenciamento de inventário para outras empresas. 
+O sistema é destinado a gerenciar usuários e produtos, permitindo diferentes níveis de acesso para administradores 
+e funcionários. A empresa oferece uma ampla gama de produtos tecnológicos, como laptops, smartphones, e acessórios.
+
+
+Implementação
+Tipos de Usuários:
+Administrador (Admin): Tem todas as permissões.
+Funcionário: Tem permissões limitadas (não pode excluir usuários ou produtos).
+
+Produtos e Serviços:
+Produtos: Incluem itens como laptops, smartphones, tablets, e acessórios.
+Implementação
+Estrutura de Dados:
+
+Usuários:
+Dicionário onde a chave é o nome de usuário e o valor é um outro dicionário com detalhes do usuário, como senha e nível de permissão.
+Arquivo de armazenamento: usuarios.csv
+Formato: nome_usuario,senha,permissao
+
+Produtos:
+Lista de dicionários, onde cada dicionário representa um produto com atributos como nome, preço, e quantidade.
+Arquivo de armazenamento: produtos.csv
+Formato: codigo,nome,preco,quantidade
+
+Funcionalidades:
+
+CRUD de Usuários:
+Create: Adicionar um novo usuário.
+Read: Listar todos os usuários.
+Update: Atualizar informações de um usuário existente.
+Delete: Remover um usuário.
+
+CRUD de Produtos:
+Create: Adicionar um novo produto.
+Read: Listar todos os produtos.
+Update: Atualizar informações de um produto existente.
+Delete: Remover um produto.
+Buscar: Buscar um produto específico por nome ou código.
+Ordenar por nome: Imprimir os registros ordenados por nome.
+Ordenar por preço: Imprimir os registros ordenados por preço.
+
+
+Conclusão
+O sistema desenvolvido para a Desenvolve Inventário Solutions implementa todas as funcionalidades de um CRUD tanto para usuários 
+quanto para produtos. Durante a implementação, algumas dificuldades encontradas 
+foram a manipulação de arquivos CSV e a criação de um menu intuitivo para o usuário final. No entanto, essas dificuldades 
+foram superadas e o sistema resultante é funcional e organizado. 
+Futuras melhorias poderiam incluir uma interface gráfica para tornar o sistema mais amigável e a adição de mais tipos de 
+produtos e serviços.
+
+
+
+
+
